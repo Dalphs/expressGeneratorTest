@@ -4,7 +4,7 @@ var url = require('url');
 
 /* GET users listing. */
 router.get('/', function(req, res, next) {
-  res.send('[{"name": "", "type": "Entusiast"}, {"username": "Proffesoren", "type": "Ekspert"}]');
+  res.send('[{"id":"1", "navn":"Tuborg", "smag":"Tis"}, {"id":"2", "navn":"Carlsberg", "smag":"Opvaskevand"}, {"id":"3", "navn":"Krenkerup Doppel Bock", "smag":"Manifique"}]');
 });
 
 router.post('/', function(req, res, next){

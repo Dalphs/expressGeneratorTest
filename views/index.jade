@@ -3,3 +3,8 @@ extends layout
 block content
   h1= title
   p Din guide til den bedste øl
+    each type, i in requestType
+      +request(type, url[i])
+
+  mixin request(type, url)
+    include requestTemplate

@@ -6,3 +6,21 @@ body {
 a {
   color: #00B7FF;
 }
+
+.request-template{
+  border-style: solid;
+  border-width: 1px;
+  max-width: 300px;
+  display: flex;
+  margin: 5px;
+}
+
+.request-template .request-type{
+  color: #ffa500;
+  padding-right: 10px;
+  padding-left: 5px;
+}
+
+.request-template .request-url{
+  text-decoration: underline;
+}
